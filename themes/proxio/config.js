@@ -178,6 +178,7 @@ const CONFIG = {
         'Be the story',
         'Shape the words',
         'Let life grow',
+        'Reva Huai',
         
     ],
 
