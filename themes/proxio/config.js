@@ -2,7 +2,7 @@
  * 另一个落地页主题
  */
 const CONFIG = {
-    PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
+    PROXIO_WELCOME_COVER_ENABLE: false, //是否显示页面进入的欢迎文字
     PROXIO_WELCOME_TEXT: '', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
@@ -25,7 +25,7 @@ const CONFIG = {
     // 文章区块
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
     PROXIO_BLOG_TITLE: '作品',
-    PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
+    PROXIO_BLOG_COUNT: 8, // 首页博文区块展示前4篇文章
     PROXIO_BLOG_TEXT_1: '我的最新动态',
 
     // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
@@ -77,7 +77,7 @@ const CONFIG = {
     ],
 
     // 首页用户测评区块
-    PROXIO_TESTIMONIALS_ENABLE: true, // 测评区块开关
+    PROXIO_TESTIMONIALS_ENABLE: false, // 测评区块开关
     PROXIO_TESTIMONIALS_TITLE: '用户反馈',
     PROXIO_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
     PROXIO_TESTIMONIALS_TEXT_2:
@@ -157,7 +157,7 @@ const CONFIG = {
     ],
 
     // 关于作者区块
-    PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+    PROXIO_ABOUT_ENABLE: false, // 关于作者区块区块开关
     PROXIO_ABOUT_TITLE: '关于作者',
     PROXIO_ABOUT_TEXT_1: '我是王明轩，字归淮。创作者、一人商业实践者。',
     PROXIO_ABOUT_TEXT_2:
@@ -224,7 +224,7 @@ const CONFIG = {
     PROXIO_404_BACK: '回到主页',
 
     // 页面底部的行动呼吁模块
-    PROXIO_CTA_ENABLE: true,
+    PROXIO_CTA_ENABLE: false,
     PROXIO_CTA_TITLE: '与我建立联系',
     PROXIO_CTA_TITLE_2: '如果你对我的咨询服务感兴趣',
     PROXIO_CTA_DESCRIPTION:
