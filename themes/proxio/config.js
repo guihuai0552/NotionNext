@@ -10,9 +10,9 @@ const CONFIG = {
     PROXIO_HERO_TITLE_1: 'Be the story. Shape the words. Let life grow.', // 英雄区文字
     PROXIO_HERO_TITLE_2: '归淮的自由创作实验室', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
+    PROXIO_HERO_BUTTON_1_TEXT: '我的产品', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
-        'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
+        'https://www.revahuai.com/article/Genius%20Utopia', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
