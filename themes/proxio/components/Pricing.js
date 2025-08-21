@@ -1,5 +1,5 @@
 import { siteConfig } from '@/lib/config'
-import SmartLink from '@/components/SmartLink'
+import Link from 'next/link'
 
 /**
  * 价格板块
@@ -66,11 +66,11 @@ export const Pricing = () => {
                       })}
                   </div>
                 </div>
-                <SmartLink
+                <Link
                   href={siteConfig('PROXIO_PRICING_1_BUTTON_URL', '')}
                   className='inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark'>
                   {siteConfig('PROXIO_PRICING_1_BUTTON_TEXT')}
-                </SmartLink>
+                </Link>
               </div>
             </div>
 
@@ -118,11 +118,11 @@ export const Pricing = () => {
                       })}
                   </div>
                 </div>
-                <SmartLink
+                <Link
                   href={siteConfig('PROXIO_PRICING_2_BUTTON_URL', '')}
                   className='inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark'>
                   {siteConfig('PROXIO_PRICING_2_BUTTON_TEXT')}
-                </SmartLink>
+                </Link>
               </div>
             </div>
 
@@ -162,11 +162,11 @@ export const Pricing = () => {
                       })}
                   </div>
                 </div>
-                <SmartLink
+                <Link
                   href={siteConfig('PROXIO_PRICING_3_BUTTON_URL', '')}
                   className='inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark'>
                   {siteConfig('PROXIO_PRICING_3_BUTTON_TEXT')}
-                </SmartLink>
+                </Link>
               </div>
             </div>
           </div>

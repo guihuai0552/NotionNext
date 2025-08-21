@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import { siteConfig } from '@/lib/config'
-import SmartLink from '@/components/SmartLink'
+import Link from 'next/link'
 import { useEffect, useRef } from 'react'
 
 /**
@@ -60,12 +60,12 @@ export const Testimonials = () => {
             </p>
 
             <div className='mt-8 w-full flex justify-start items-center'>
-              <SmartLink
+              <Link
                 href={siteConfig('PROXIO_TESTIMONIALS_BUTTON_URL', '')}
                 className='px-4 py-2 rounded-3xl border dark:border-gray-200 border-[#333333] text-base font-medium text-dark hover:bg-gray-100 dark:text-white dark:hover:bg-white dark:hover:text-black duration-200'>
                 {siteConfig('PROXIO_TESTIMONIALS_BUTTON_TEXT')}
                 <i className="pl-4 fa-solid fa-arrow-right"></i>
-              </SmartLink>
+              </Link>
             </div>
           </div>
 
